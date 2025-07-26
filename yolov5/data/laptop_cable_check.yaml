@@ -1,0 +1,32 @@
+# YOLOv5 🚀 by Ultralytics, AGPL-3.0 license
+# Laptop Cable Check Dataset Configuration
+# 노트북 케이블 단자 체크 데이터셋 설정
+
+# Dataset info
+path: ../datasets/laptop_cable_check  # dataset root dir
+train: images/train  # train images (relative to 'path')
+val: images/val  # val images (relative to 'path')
+test: images/test  # test images (relative to 'path') - optional
+
+# Classes
+names:
+  0: sub1-DB
+  1: sub1-MB
+  2: sub2-DB
+  3: sub2-MB
+  4: wifi-antena
+  5: wifi-connect
+  6: camera
+  7: lcd
+  8: battery
+  9: touchpad
+  10: keyboard
+  11: speaker
+
+# Class count
+nc: 12
+
+# Download script/URL (optional) - for automatic dataset download
+# download: |
+#   import os
+#   # Add download script here if needed
